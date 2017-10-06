@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PICTOPEDIA</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="custom.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="pictoline.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a class="icon-pictopedia" href="#"></a>
+                    </div>
+                    <div class="col-md-9"></div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="well well-lg">
+                            <p>
+                                <strong>Keywords:</strong>
+                            </p>
+                            <form role="form" onsubmit="SearchTweets(); return false;">
+                                <div class="form-group">
+                                    <input id="searchTxt" name="searchTxt" class="form-control" type="text" placeholder="Ej. Emoji">
+                                </div>
+                            </form>
+                            <button class="btn btn-default" onclick="SearchTweets();">Buscar</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="results" name="results">
+                </div>
+             </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center"></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
