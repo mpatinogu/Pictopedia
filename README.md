@@ -13,3 +13,5 @@ Install dependencies with "npm i" (inside the folder than containg the project u
 Start project with "npm run start"
 
 Open in browser http://localhost:5450/
+
+Note: to run the app is necessary have the port 5450 free.
