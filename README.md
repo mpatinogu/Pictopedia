@@ -8,7 +8,7 @@ Clone the project
 
 Unzip pictopedia.js
 
-Install dependencies with "npm i" (inside the folder than containg the project)
+Install dependencies with "npm i" (inside the folder than containg the project use a terminal)
 
 Start project with "npm run start"
 
